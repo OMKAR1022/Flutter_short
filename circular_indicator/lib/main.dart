@@ -398,7 +398,7 @@ class _FitnessProgressDemoState extends State<FitnessProgressDemo> with TickerPr
             TweenAnimationBuilder<double>(
               tween: Tween<double>(begin: 0.0, end: 1.0),
               duration: const Duration(milliseconds: 800),
-             // delay: const Duration(milliseconds: 1500),
+              //delay: const Duration(milliseconds: 1500),
               builder: (context, value, child) {
                 return Opacity(
                   opacity: value,
@@ -439,7 +439,7 @@ class _FitnessProgressDemoState extends State<FitnessProgressDemo> with TickerPr
     return TweenAnimationBuilder<double>(
       tween: Tween<double>(begin: 0.0, end: 1.0),
       duration: const Duration(milliseconds: 800),
-     // delay: Duration(milliseconds: delay),
+    //  delay: Duration(milliseconds: delay),
       curve: Curves.easeOutBack,
       builder: (context, value, child) {
         return Transform.scale(
